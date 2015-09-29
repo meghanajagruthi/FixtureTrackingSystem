@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+ 
+<hibernate-configuration>
+    
+    <session-factory>
+    	<mapping class="com.elecnor.lighting.bean.ADesign" />
+    	<mapping class="com.elecnor.lighting.bean.AtticStock" />
+    	<mapping class="com.elecnor.lighting.bean.EDesign" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureDescription" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureIssue" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureManufacturer" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureMaster" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureTracking" />
+    	<mapping class="com.elecnor.lighting.bean.BadFixtureLamp" />
+    	<mapping class="com.elecnor.lighting.bean.FixtureVariant" />
+    	<mapping class="com.elecnor.lighting.bean.LampCatalogNum" />
+    	<mapping class="com.elecnor.lighting.bean.LampManufacturer" />
+    	<mapping class="com.elecnor.lighting.bean.ProjectMaster" />
+    	<mapping class="com.elecnor.lighting.bean.UserProfile" />
+    	<mapping class="com.elecnor.lighting.bean.ChangeOrder"/>
+    	<mapping class="com.elecnor.lighting.bean.ReportIssue"/>
+    </session-factory>
+    
+</hibernate-configuration>
